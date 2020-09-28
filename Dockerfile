@@ -1,6 +1,8 @@
 FROM sentinel:5000/jenkins-build-android:latest
 
 ## Configuration for Flutter development
+## Check for updates here:
+## https://flutter.dev/docs/get-started/install/linux
 
 ARG flutter_ver=1.20.4
 
